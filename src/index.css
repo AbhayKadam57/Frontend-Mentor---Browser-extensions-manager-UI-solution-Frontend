@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "NotosansBold";
+  src: url("/public/fonts/static/NotoSans-Bold.ttf");
+}
+@font-face {
+  font-family: "NotosansMedium";
+  src: url("/public/fonts/static/NotoSans-Medium.ttf");
+}
+@font-face {
+  font-family: "NotosansRegular";
+  src: url("/public/fonts/static/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "NotosansTalic";
+  src: url("/public/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+  font-family: "NotosansVariableFont";
+  src: url("/public/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "NotosansRegular";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hidden {
+  display: none;
+}
